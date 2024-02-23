@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8502:8502"
+  trulens-db:
+    build:
+      context: ./trulens_eval
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    

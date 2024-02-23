@@ -1,0 +1,6 @@
+Can I use an iPhone backup stored on a MacOS or Windows machine to restore Duo Mobile
+
+ANSWER
+Yes, you can use an iPhone backup that is stored on a MacOS or a Windows machine to restore Duo Mobile if you get a new iPhone or have to reset your device. Please note that you must select the option to "Encrypt local backup" and remember or securely record the encryption password at the time of backup in order to complete this process. After you create and confirm your password, your backup will immediately overwrite and encrypt your previous backups. This process is explained further in Apple's documentation. 
+
+See our Guide to Duo Restore for Duo Mobile account recovery for more information.

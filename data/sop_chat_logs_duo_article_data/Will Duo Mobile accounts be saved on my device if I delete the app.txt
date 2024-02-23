@@ -1,0 +1,16 @@
+Will Duo Mobile accounts be saved on my device if I delete the app
+
+ANSWER
+Duo Mobile may or may not retain accounts after the app is deleted based on your device's operating system.
+
+iOS
+On Duo Mobile on iOS, all accounts are retained in the device's secure keychain when you delete the app.
+This means both Duo-protected and third-party accounts will be available if you reinstall Duo Mobile on the same device.
+Accounts are only deleted when done so explicitly in the app.
+When a factory reset is done, accounts are also deleted. 
+
+Android
+On Duo Mobile on Android, all accounts are retained in your Google Drive backup as long as you did not toggle off the "Backup accounts with Google Drive" setting in the Duo Mobile app prior to deleting it.
+If you reinstall Duo Mobile later on, you will be prompted to get your accounts back but will also need to manually reconnect your Duo-protected accounts.
+For third-party accounts, assuming you had third-party account recovery enabled, you will be prompted for a recovery password.
+If you'd like to ensure your Google Drive backup is deleted, you can toggle off the "Backup accounts with Google Drive" feature at any time.

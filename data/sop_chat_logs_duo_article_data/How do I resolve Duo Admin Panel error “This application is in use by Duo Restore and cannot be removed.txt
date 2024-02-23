@@ -1,0 +1,18 @@
+How do I resolve Duo Admin Panel error “This application is in use by Duo Restore and cannot be removed?
+
+ISSUE
+While attempting to remove a Duo protected application from the Admin Panel, the error "This application is in use by Duo Restore and cannot be removed" is shown.
+
+In order to release the application to be removed, you must modify the Duo Restore configuration with either method below.
+ 
+Method 1 - Select a different application to use with Duo Restore:
+Click "Change Duo Restore to use another Application" or in the Admin Panel Navigate to Settings > Duo Mobile App > Duo Restore.
+You can then select a different application for use with Duo Restore.
+Remove the application.
+ 
+Method 2 - Disable Duo restore:
+You can disable Duo Restore by clearing the configuration from both the application and URL fields. This will release the application so that you can remove it.
+Note that this method will prevent users from being able to use Duo Restore.
+
+CAUSE
+This occurs if you attempt to remove an application in use by Duo Restore.

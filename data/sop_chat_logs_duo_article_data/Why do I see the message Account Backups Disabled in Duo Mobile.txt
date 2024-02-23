@@ -1,0 +1,8 @@
+ANSWER
+The notification "Account Backups Disabled" in the Duo Mobile application indicates Duo Restore has not been enabled by an end-user in Duo Mobile on their Android device.
+
+Duo Restore for the Duo Mobile app gives end-users the ability to back up and restore non-sensitive Duo account information from the Duo Mobile app to Google Drive (Android devices) or iCloud (iOS devices).
+
+Regardless of whether Duo Mobile Restore or Instant Restore are enabled in the Duo Admin Panel Settings by a Duo administrator, end-users can still see this message and enable Duo Restore locally, to back up non-sensitive info for Duo User Accounts and third-party accounts (account names and icons only), but they would not be able to back up the full, Duo-Protected account if the setting is not enabled in the Duo Admin Panel. 
+
+This message cannot be suppressed by Administrator settings and will continue to serve as a reminder if a user does not have Duo Restore enabled in Duo Mobile for Android only. 

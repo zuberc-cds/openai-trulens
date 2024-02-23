@@ -1,0 +1,23 @@
+How does changing a phone, number, or SIM card affect Duo Mobile
+
+ANSWER
+Introduction
+If you are new to Duo Mobile and installing for the first time on a new device, please see this guide. If you previously used Duo Mobile on a smartphone, tablet, or other mobile device and are now moving to a new device, changing a phone number, or SIM card, please refer to the information below. 
+
+Changing Phone
+Since Duo Mobile is tied to a specific device's hardware security module (HSM), you will need to reinstall and reactivate Duo Mobile on the new phone.
+If self-service device management (the "Manage devices" or "My Settings & Devices" button) has been enabled by your administrator, you can reactivate Duo Mobile in the traditional Duo Prompt or Universal Prompt via phone callback or SMS authentication.
+Account Recovery: Duo Restore features in the Duo Mobile app can also assist with account recovery as long as Duo Restore was enabled on the old device. See this article for help recovering third-party accounts such as Facebook or Instagram.
+If Duo Mobile accounts cannot be recovered via Duo Restore or other means, contact an IT administrator at your organization for help reactivating your Duo accounts. Duo Support will not be able to help troubleshoot.
+
+Changing Phone Number
+If you still have Duo Mobile installed and the ability to authenticate via push or a passcode, follow the procedure for adding a new device in the traditional Duo Prompt or Universal Prompt. If you or a Duo Admin haven't deleted your previous device from Duo since your number changed and you restored Duo Mobile on a new device, you will still be able to receive a push as Duo Push is not tied to the phone number.
+
+If you do not have any means of authenticating, contact the IT help desk at your organization. Please note that if you were to try to authenticate via SMS passcode or phone callback at this time, Duo would contact your old number. We recommend deleting the old device in the traditional Duo Prompt or Universal Prompt as soon as possible.
+
+Changing SIM Card
+You will not need to reactivate Duo Mobile after just switching SIM cards because the app is tied to the phone's hardware security module (HSM). If changing the SIM card also required your phone number to change, see above.
+
+Duo Administrators
+If you are a Duo administrator looking for information on how to help end-users with common tasks such as re-activating Duo Mobile, please see the Duo Help Desk Guide.
+

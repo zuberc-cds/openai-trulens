@@ -1,0 +1,4 @@
+Can I enable Instant Restore for Duo Mobile for specific groups of users
+
+ANSWER
+No, the Instant Restore feature for Duo Mobile account recovery, when enabled, will apply to all users on the Duo account. You cannot enable the feature for only a group or groups of users in the Duo Admin Panel.

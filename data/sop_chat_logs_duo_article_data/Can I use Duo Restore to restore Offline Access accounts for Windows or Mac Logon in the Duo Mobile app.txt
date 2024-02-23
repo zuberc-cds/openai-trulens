@@ -1,0 +1,10 @@
+Can I use Duo Restore to restore Offline Access accounts for Windows or Mac Logon in the Duo Mobile app?
+
+ANSWER
+No. Offline Access accounts for Windows or Mac Logon in the Duo Mobile application cannot be restored via Duo Restore. Offline authentication is designed using the principles of asymmetric cryptography, meaning we do not store any information in the cloud or iCloud. By design, it is not possible to do a web-based restore of the Offline accounts. Please see our blog for more information: Building Windows Offline.
+
+The Offline account will need to be reactivated when the user is presented with the Windows or Mac Logon Duo Prompt, as described in the documentation: Windows | Mac
+
+Note that you can also choose to activate a U2F Security Key for use with Windows Logon Offline access. Security keys are not yet supported for Mac Logon.
+
+If you still see the disconnected Windows or Mac Logon Offline Access account listed in your Duo Mobile app, you will need to manually delete it. 

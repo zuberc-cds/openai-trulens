@@ -1,0 +1,4 @@
+Why am I seeing "Account Disabled" in the Duo Mobile account list?
+
+ANSWER
+Users will see “Account Disabled” in their Duo Mobile account list when their account name was restored but not reconnected through Duo Restore. This can be for Duo-protected accounts or third-party accounts. For third-party accounts, this means that the account must be reconnected in order to generate one-time passcodes (OTPs). For Duo-protected accounts, this means that the account must be reconnected to be used for authenticating via Duo Push or passcodes. Read more about Duo Restore in our end-user guide.
