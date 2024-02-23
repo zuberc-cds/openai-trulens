@@ -1,0 +1,10 @@
+Why am I locked out of my third-party accounts (such as Instagram or Facebook) in Duo Mobile after formatting or restoring my phone?
+
+ANSWER
+Note: This article applies to third-party accounts such as Instagram, Facebook, and Snapchat. For information on the differences between third-party accounts and Duo-protected applications, please see this article: What are the differences between Duo-protected applications and third-party accounts?. If you are locked out of a Duo-protected application that you use for work or school after formatting or restoring your device, please see this article: Why am I locked out of my Duo-protected applications for work or school after formatting or restoring my phone?
+
+
+When you format your Android device or restore your iOS device, Duo Mobile is automatically deleted from your phone, disconnecting the Duo Mobile app from your third-party accounts (Instagram, Facebook, Snapchat, etc.). If you enabled Duo Restore, you can use your recovery password to reconnect your third-party accounts when you reinstall the Duo Mobile app. See instructions for recovering third-party accounts on iOS and Android.
+
+
+If you do not have the recovery password for Duo Restore, please see this article for instructions on regaining access to your third-party accounts: What do I do if I’m locked out of Instagram, Facebook, or another third-party Duo Mobile account? 

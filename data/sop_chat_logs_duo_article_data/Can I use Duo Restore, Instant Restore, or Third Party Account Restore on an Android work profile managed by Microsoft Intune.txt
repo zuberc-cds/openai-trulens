@@ -1,0 +1,6 @@
+Can I use Duo Restore, Instant Restore, or Third Party Account Restore on an Android work profile managed by Microsoft Intune?
+
+ANSWER
+By design, Microsoft Intune does not allow a Google account to be added for Android Enterprise (an Android work profile). Duo Restore (including Instant Restore and Third Party Account Restore) on Android is reliant on having a Google Drive account, so this prevents users in this scenario from being able to use Duo Restore.
+
+Note that this only impacts the ability to backup and restore accounts. Duo Mobile functions as expected when using Duo Push or Duo Mobile passcodes as 2FA while Duo Mobile is installed in Android Enterprise. 

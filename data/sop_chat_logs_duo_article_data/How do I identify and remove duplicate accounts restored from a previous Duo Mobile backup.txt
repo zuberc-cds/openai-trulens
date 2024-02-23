@@ -1,0 +1,12 @@
+How do I identify and remove duplicate accounts restored from a previous Duo Mobile backup
+
+ISSUE
+Duplicate accounts exist in Duo Mobile after using Duo Restore to reactivate and restore Duo-protected accounts.
+RESOLUTION
+Since one of the accounts has been restored from an old backup and superseded by the new account, only one will be functional.
+
+To identify and delete the non-functional account:
+Test each account by logging in to a Duo-protected application with the Duo Mobile generated passcode. You will not be able to successfully log in to a protected application using a Duo Mobile passcode from the older, non-functional account.
+Once the non-functional account has been identified, you can manually delete it from Duo Mobile.
+CAUSE
+Duo Mobile activations are device-specific. Enabling Duo Restore after activating Duo Mobile will fetch previous device backups. These old accounts will show up as deactivated entries in Duo Mobile.

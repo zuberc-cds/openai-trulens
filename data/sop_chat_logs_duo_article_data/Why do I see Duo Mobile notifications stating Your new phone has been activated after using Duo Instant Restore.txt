@@ -1,0 +1,10 @@
+Why do I see Duo Mobile notifications stating "Your new phone has been activated" after using Duo Instant Restore?
+
+ANSWER
+After setting up a new phone using Duo Instant Restore, you will receive a notification from Duo Mobile on your old device saying "Your new phone has been activated". 
+
+Read more about the process of recovering Duo-protected accounts with Instant Restore in Duo's guide to Duo Restore.
+
+Seeing this notification multiple times indicates that you restored multiple Duo-protected accounts in Duo Mobile via the Instant Restore mechanism. You will see one notification per account.
+
+If you are an end-user who received this message and you did not reactivate your device, please reach out to your organization's Help Desk.

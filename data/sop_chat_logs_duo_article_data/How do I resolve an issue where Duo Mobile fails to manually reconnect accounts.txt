@@ -1,0 +1,12 @@
+How do I resolve an issue where Duo Mobile fails to manually reconnect accounts?
+
+ISSUE
+An issue affecting version 4.3.0.21 of Duo Mobile for iOS could result in the app crashing when tapping "Reconnect" for an account in a disconnected state. Version 4.3.0.21 of Duo Mobile began rolling out to users on November 22, 2021 before being paused.
+
+This issue was resolved in version 4.4.0 of Duo Mobile for iOS.
+
+RESOLUTION
+Users should update to version 4.4.0 or later.
+
+CAUSE
+This issue is related to a bug in Duo Mobile version 4.3.0.21 for iOS.

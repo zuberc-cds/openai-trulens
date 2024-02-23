@@ -1,0 +1,20 @@
+What is the end-user experience after Duo Instant Restore is enabled in the Duo Admin Panel?
+
+ANSWER
+Duo Instant Restore allows users to seamlessly recover their Duo-Protected accounts by pulling from an iCloud backup (iOS) or Google Drive backup (Android). 
+
+After you enable Instant Restore in the Duo Admin Panel, users will not be notified. If you are currently using the legacy Duo Restore feature, enabling Instant Restore would override that existing workflow for recovering accounts. If Instant Restore fails to restore an account for any reason, that account would be left in a "Reconnect" state, and legacy Duo Restore could be used as a backup way to recover the account.
+
+iOS users will not have to take any additional action as long as the iCloud keychain is enabled on their device (on by default). See a description and video of the Instant Restore process on iOS devices here: Restoring Duo Mobile Accounts - iOS
+
+Android users will be presented with the option to backup their accounts the next time that they open Duo Mobile. If they are already signed in to Google Drive, they can select which account to authorize. If they are not signed in to a Google Drive account on the device, they will be prompted to sign in before proceeding. See a description and video of the Instant Restore process on Android devices here: Restoring Duo Mobile Accounts - Android
+
+Note that if an Android user gets a new phone, they will need access to the old phone in order to restore their accounts once Instant Restore is enabled.
+
+To enable Instant Restore for your Duo account:
+Log in to the Duo Admin Panel.
+Click Settings on the left.
+Check the option to enable Allow Instant Restore for Duo Mobile on Android and iOS.
+
+Restoring third-party apps
+For both iOS and Android, users will need to manually enable Third-Party Restore in the Settings of the Duo Mobile app on their device. They will create a recovery password before the backup is completed. Note that Duo does not store this password, and the user must save the password in a secure location such as a password manager app. 

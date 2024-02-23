@@ -1,0 +1,10 @@
+Can I back up Duo Mobile
+
+ANSWER
+Accounts in Duo Mobile can be recovered on iOS and Android devices in some circumstances.
+
+Duo-protected and third-party user accounts on iOS and Android can be securely backed up and recovered via Duo Restore. In addition to Duo Restore, iOS Duo-protected accounts are backed up when your device syncs with iCloud.
+
+If accounts could not be recovered via Duo Restore, your IT administrator can always help reactivate your Duo-protected accounts. If your organization uses the Self-Service Portal functionality, you can also reactivate via the portal with the phone callback or SMS authentication methods.
+
+For third-party accounts (such as Facebook, Instagram, and Snapchat), if you do not create a backup and recovery password via Duo Restore for third-party accounts, you'll need to reactivate those accounts individually. If you have a secure physical location to store that information, you may want to capture the QR/barcode data for that account when adding it to Duo Mobile. Some third-party accounts provide recovery codes, which should also be printed and stored in a secure location.

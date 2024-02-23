@@ -1,0 +1,42 @@
+What do I do if I’m locked out of Instagram, Facebook, or another third-party Duo Mobile account
+
+ISSUE
+I am locked out of a third-party account (such as Facebook, Instagram, or Snapchat) that I protected with Duo Mobile.
+RESOLUTION
+Note that third-party applications are different from Duo-protected applications. When you set up two-factor authentication (2FA) to help secure your third-party accounts using Duo Mobile, no new account or membership occurs with Duo. You are simply using the Duo Mobile app to protect your existing third-party account.
+
+When you set up 2FA for a third-party account, that third-party service provides a secret key that Duo Mobile uses to generate passcodes. That key is securely stored on the device you originally installed the app on and is not transmitted to Duo’s cloud service, for your privacy and security.
+
+Duo does not have access to your third-party accounts or account credentials, so our Support Team is unable to help resolve the lockout. Nor do we have access to your recovery codes or Duo Restore password. Please ensure that recovery codes initially provided during setup are backed up and kept in a secure place.
+
+If you are locked out of a third-party account, there are a few ways in which you can regain access: 
+Recovery codes: Recovery codes are provided by the account service provider (Instagram or Facebook, for example) when you first enable two-factor authentication (2FA) for your account. Most third-party social media accounts will prompt you to take a screenshot of the recovery codes immediately after enabling 2FA. They serve as a backup method that allows you to log in to your account in the event that you are unable to access passcodes. It is imperative that you save these recovery codes in a safe place that you can easily access in the event that your device is lost, stolen, reformatted, or otherwise wiped.
+To manually reconnect using a recovery code and re-add the account to Duo Mobile:
+Install or reinstall Duo Mobile on your device.
+Log in to the third-party account you would like to recover. When prompted for the passcode you would normally generate in Duo Mobile, enter one of the recovery or backup codes provided by the account service provider (i.e., Instagram or Facebook) when you initially set up two-factor authentication (2FA).
+When you have regained access to the third-party account, go to your 2FA settings to locate the barcode used to connect the account with an authenticator app. Refer to instructions provided by the service provider for help finding this setting.
+Open the Duo Mobile app and tap Add.
+Tap Use QR code to open the barcode scanner to add an account.
+Using the Duo Mobile app, scan the barcode from your third-party account 2FA setup screen to add the account back to Duo Mobile.
+Additional information:
+How do I get Facebook recovery login codes to use when I don't have my phone?
+What's a recovery code? How do I use it on Instagram?
+Duo Restore for Third-Party Accounts: If you previously enabled Duo Restore for Third-Party Accounts on your device and created a third-party account backup, you can restore the account to your device using the process below. Please note that you must have the 10-128 character recovery password you set when you first enabled Duo Restore:
+iOS:
+Refer to the instructions below or check out our video for How To Recover Instagram, Facebook & Other Third-Party Accounts on Duo Mobile for iOS.
+Restore your new or reset iOS device from your iCloud backup.
+Open the Duo Mobile app on your device.
+If you previously created a third-party account backup, Duo Mobile notifies you to get your accounts reconnected. Click Continue.
+Duo Mobile will attempt to automatically restore any third-party accounts. In the event that an automatic restore isn't successful, Duo Mobile will prompt for the recovery password you created when you enabled third-party account backup.
+Android:
+Refer to the instructions below or check out our video for How To Recover Instagram, Facebook & Other Third-Party Accounts on Duo Mobile for Android.
+Open the Duo Mobile app on your device.
+Tap I have existing accounts from the welcome screen.
+Select the Google account you used when initially setting up Duo Restore.
+If Duo Mobile finds a valid backup in your Google Drive, it restores your previously backed-up accounts. If your backup included third-party accounts, enter your recovery password when prompted and tap Connect.
+Please note: Android users who delete the Duo Mobile app from their device will be unable to use Duo Restore for Third-Party Accounts.
+Forgotten or lost recovery password: If you previously set up Duo Restore for Third-Party Accounts but have forgotten your recovery password, you can reset your password and regain access as long as you still have access to the device that you originally set up Duo Restore for Third-Party Accounts on. Learn more in Can I reset the recovery password for third-party accounts in Duo Restore on Duo Mobile?
+Contact the account provider’s support team: If you no longer have access to third-party account recovery codes and you either did not previously enable Duo Restore for Third-Party Accounts or no longer have access to the recovery password you set, you must contact the support team at your account service provider, such as Instagram or Facebook, for help.
+
+CAUSE
+Lockouts can occur if you did not back up your Duo Mobile accounts or save recovery codes before your device is replaced, reformatted, or otherwise wiped.

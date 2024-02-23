@@ -1,0 +1,10 @@
+Why are my Android users seeing the Duo Restore option in Duo Mobile when it is disabled in the Admin Panel?
+
+ANSWER
+The Duo Restore account recovery feature within Duo Mobile has two distinct phases: backup and recovery. Recovery is an opt-in feature that can be enabled and configured by an account administrator, but backup is available for all users of Duo Mobile version 3.17 and greater. Backup happens silently for iOS users via iCloud, but Android users have to opt-in to the feature.
+
+
+if Duo Restore is not enabled for your account in the Duo Admin Panel, users, including those who have enabled backup, will see the following message when trying to recover their account associated with your organization.
+
+
+Also, Duo Mobile’s Third-Party Restore feature is not controlled by a Duo administrator. Any end-user can opt into this feature in Duo Mobile, which allows them to set a recovery password for restoring personal accounts.

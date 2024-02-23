@@ -1,0 +1,92 @@
+Guide to Duo Restore for Duo Mobile account recovery
+
+HOW TO 
+If you are a Duo Mobile end-user (like a student or employee using Duo to log in to a university or work application) and need help restoring Duo Mobile accounts, please see our Duo Restore User Guide. This applies to both Duo-protected and third-party accounts.
+
+Overview
+Duo offers different methods for users to recover their accounts in Duo Mobile:
+
+Instant Restore for Duo-protected accounts provides easy account recovery of Duo-protected accounts when a Duo Mobile user gets a new iOS or Android device. Read more about setting up and using Instant Restore in our End User Guide. Note: Enabling Instant Restore applies to all users on your account.
+Duo Restore for third-party accounts helps you regain access to third-party accounts like Facebook, Snapchat, or Instagram. Read about how to recover third-party accounts in Duo Mobile. You can also learn more about the differences between Duo-protected accounts and third-party accounts here.
+Duo Mobile Restore for Duo-protected accounts (Legacy) is a legacy recovery option that also allows users to back up and restore Duo-protected accounts from a protected application. Read more about setting up and using Duo Restore in our End User Guide.
+Note that a Duo administrator has to enable the feature(s) in order for Instant Restore and/or Duo Mobile Restore for Duo-protected accounts to be recovered. If you have multiple Duo-protected accounts associated with several different Duo customer accounts, Instant Restore and/or Duo Mobile Restore for Duo-protected accounts will need to be enabled to recover any accounts. Both features (Instant Restore and Duo Mobile Restore) can be individually or simultaneously enabled on a single Duo customer account.
+
+The following table outlines the major differences between the two account restoration methods:
+
+ 	iOS Instant Restore	Android Instant Restore	Duo Restore 
+(Legacy)
+Requires Duo admins to enable this setting in the Duo Admin Panel	Yes	Yes	Yes
+Requires end-users to enable a setting in their Duo Mobile application	No*	Yes	No
+Restores non-sensitive info for Duo User Accounts (account names and icons only)	Yes	Yes	Yes
+Re-activates Duo User Accounts	Yes	Yes**	No
+Restores non-sensitive info for Duo admin Accounts (account names and icons only)	Yes	Yes	Yes
+Restores 3rd Party Accounts	Yes***	Yes***	Yes***
+Restores Windows Offline Accounts	No	No	No
+Fully Restoring Duo User accounts requires a Duo protected application that supports the Duo Prompt/iFrame	No	No	Yes
+Utilizes Apple or Google cloud services to store and retrieve account details	Yes	Yes	Yes
+* Instant Restore on iOS devices will be enabled by default starting with Duo Mobile version 3.33.0.3. Requires Duo administrators to enable the Instant Restore setting in the Duo Admin Panel.
+** Requires the user to have access to their old Android device. The old device will provide a QR code for the user to scan with their new Android device.
+*** Requires users to enable "Duo Restore for Third-Party Accounts" within Duo Mobile: iOS | Android. For more detailed information on each recovery option, see the FAQ section below.
+ 
+
+For Administrators:
+Duo Mobile iOS version 3.33.0 and Android version 3.32.0 and later supports Duo Mobile Instant Restore, in which Duo administrators may enable automatic account restoration for Duo-protected accounts. Note: Unlike iOS, Android users will need their previous device in order to restore their accounts. This feature can be enabled in the Settings page of the Duo Admin Panel and requires that users utilize iCloud Keychain for iOS and Google Drive for Android. 
+
+As of July 2020, Instant Restore for both iOS and Android is enabled in the Duo Admin Panel by default for all newly created Duo customer accounts. Learn more about Duo Mobile Instant Restore here.
+
+Duo Restore for Duo-protected accounts is a legacy recovery implementation for end-users. We recommend enabling the Duo Mobile Instant Restore functionality over this option. If you use Duo Restore today and want to enable Instant Restore instead, you can select Instant Restore on the Settings page in the Admin Panel and disable Duo Restore. Once the change is saved, end-users will follow the new simplified workflow for recovering Duo-protected accounts. Note that enabling Instant Restore will disable the legacy Duo Restore workflow for users.
+
+Duo administrators can view the Instant Restore activity occurring in their account by exporting the report from the Duo Admin Panel under: Settings > Duo Mobile App > Instant Restore > Export 
+
+Frequently Asked Questions
+What are the differences between Duo’s account restoration methods?
+Duo Mobile can easily restore both Duo-protected and third-party accounts when a user gets a new phone.
+Instant Restore seamlessly restores Duo-protected (e.g. work, university, etc.) accounts.
+Duo Restore for third-party accounts allows a user to use a recovery password to restore third-party (e.g. personal) accounts, like Facebook or Instagram. 
+Duo Restore for Duo-protected accounts (Legacy) is a legacy feature that allows administrators to designate a protected application that users can access to restore Duo-protected accounts.
+
+Instant Restore for Duo-protected accounts
+Instant Restore is designed to provide seamless account recovery for end-users when they first open Duo Mobile on a new or restored device. The ability for end-users to recover Duo-protected accounts via Instant Restore is enabled or disabled by Duo Administrators in the Duo Admin Panel.
+
+Duo administrators can enable Instant Restore in the Duo Admin Panel by navigating to Settings > Duo Mobile App and locating the option for allowing Instant Restore.
+
+Refer to our End User Guide to see the end-user experience for Instant Restore on iOS and Instant Restore on Android. Note: Unlike iOS, Android users will need their previous device in order to restore their accounts.
+
+Duo Restore for third-party accounts
+Duo Mobile also allows end-users to set a recovery password that can be used to restore third-party accounts. The ability to back up and restore third-party accounts was added in Duo Mobile version 3.28.0. 
+
+Duo Mobile’s Third-Party Restore feature is not controlled by a Duo administrator. Any end-user can opt into this feature, which allows them to set a recovery password for restoring personal accounts. This password cannot be recovered by Duo and must be stored securely by the end-user until they need it to recover their accounts. 
+
+Learn more about the steps end-users can follow to recover third-party accounts for iOS and Android.
+
+Duo Mobile Restore for Duo-protected accounts (Legacy)
+Duo Mobile Restore, the original method for restoring Duo-protected accounts, was introduced in version 3.17 of Duo Mobile. 
+
+Note: As of July 2020, we recommend that customers enable Instant Restore because it provides a simpler experience for end-users when restoring their accounts.
+
+To use Duo Mobile Restore (Legacy), you must first enable it in the Duo Admin Panel. Then you must configure a specific web-based application for users to authenticate to and restore their accounts. 
+
+End-users will need to complete primary and secondary authentication for this application using a method other than Duo Push or an app-generated passcode on the device they are trying to restore. This will allow them to reconnect all of their Duo-protected accounts.
+
+Please note: In order to use Duo Mobile Restore (Legacy) on Android, you must be running Duo Mobile version 3.30 or newer.
+
+Are accounts deactivated on your previous device when you restore them on a new device?
+If you use Instant Restore or Duo Restore to recover Duo-protected accounts on a new device, it will deactivate those accounts (both user and administrator) on the device used to create the backup. Using Duo Restore for third-party accounts to recover accounts on a new device will not deactivate those third-party accounts on the previous device.
+
+What are the benefits of Duo Restore vs. the normal reactivation process?
+The restore process does not require users to interact with their IT helpdesk or administrator.
+Duo Restore provides easy-to-follow guided processes for restoring and reactivating accounts directly within the Duo Mobile app.
+Restoring accounts does not require having the self-service portal option enabled on restored applications.
+ 
+Will Duo Mobile accounts be saved on my device if I delete the app?
+It depends on the device's operating system.
+On iOS, all accounts are retained in the device's secure keychain when you delete the app. This means both Duo-protected and third-party accounts will be available if you reinstall Duo Mobile on the same device. Accounts are only deleted when done so explicitly in the app.
+On Android, all accounts are retained in your Google Drive backup as long as you did not toggle off the "Backup accounts with Google Drive" setting in the Duo Mobile app prior to deleting it. If you reinstall Duo Mobile later on you will be prompted to get your accounts back, but will need to manually reconnect your Duo-protected accounts. For third-party accounts, assuming you had third-party account recovery enabled, you will be prompted for a recovery password.
+If you'd like to ensure your Google Drive backup is deleted, you can toggle the "Backup accounts with Google Drive" feature off at any time.
+ 
+Why am I getting an error saying "We couldn't find any accounts backed up on this Google account. Try selecting another Google account or contact your help desk." when attempting Duo Restore on Android?
+There are several reasons this could happen:
+The wrong Google account was chosen when attempting account restoration.
+If you very recently enabled a Duo Restore feature on your new phone, it may not be in sync with the backup on your old phone yet.
+The Duo Mobile app was deleted from the old phone, which would have also deleted the Google Drive backup.
+A Duo Restore feature was actually never activated on the old (original) device, so no backup is available.
