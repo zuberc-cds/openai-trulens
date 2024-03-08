@@ -1,3 +1,5 @@
+## App Demo URL : http://3.221.150.223:8502/
+
 # App Setup
 
 ## Environment Variables
